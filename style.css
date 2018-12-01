@@ -1,0 +1,31 @@
+body,ol,ul,li,p,pre{padding: 0; margin: 0;}
+img{vertical-align: bottom; padding: 5px;}
+a{text-decoration: none;}
+body{ text-align: center;}
+li{list-style-position:inside;}
+li span{font-weight: bold;color: #a10000; padding: 0 .5em;}
+pre, ol{display:inline-block; padding: 5px 10px; margin: 5px 2px; text-align: left; font-size: 14px; line-height: 1.2em;}
+pre span, ol span{color: #ffa;}
+pre b, ol b{color: #fff;}
+pre{background-color: #000; color: #aaa;}
+ol{background-color:#555; color:#ccc;}
+ul ul{list-style-type: decimal;}
+dl{text-align:left;max-width:1000px;margin:20px auto;padding:0 50px;box-sizing:border-box;}
+dt{font-weight:bold;font-size:1.1em;}
+dl span{font-weight:bold;}
+dl.fold dd{visibility:hidden;}
+.bx{display: table; width: 100%;}
+.bxi{display:table-cell; vertical-align: middle;}
+.bxc{font-size: 20px; line-height: 30px;}
+.bx:nth-child(2n){background-color: #ddd;}
+.bx:nth-child(2n+1){background-color: #eee;}
+.bxt{text-align: center; font-size: 30px; font-weight: bold; margin-top:10px; margin-bottom: 20px;}
+.bxt span{font-size: 24px;}
+.bx:first-of-type .bxt{font-size: 45px;}
+.bx ul>li{margin-top: 5px;}
+.bxp{position: fixed; right: 0; top: 0; color: #fff;}
+.bxp ul{border: 1px solid #fff;}
+.bxp li{padding: 10px; background-color: rgba(0,0,0,.5); border-bottom: 1px solid #fff; list-style: none;}
+.bxp li:last-child{list-style: none;}
+.bxp li:last-child a{text-indent: -9999px; display: inline-block; width: 0; height: 0; border: 10px solid #fff; border-left-color: transparent; border-right-color: transparent; border-top: 0; position: relative; top: 5px;}
+.bxp a{color: #fff;}
