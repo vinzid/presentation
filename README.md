@@ -1,4 +1,8 @@
-## Example
+# Presentation
+
+It is application to have slideshow as webpage format.  这是一个以网页形式展示幻灯片的应用。
+
+## Example 例子
 ```
 <div class="bx">
     <div class="bxi">
